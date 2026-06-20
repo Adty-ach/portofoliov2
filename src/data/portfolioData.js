@@ -94,10 +94,9 @@ export const projects = [
     github: "https://github.com/adityapratama/smart-home",
     demo: "https://smarthome.adityapratama.dev",
     images: [
-      "[images.unsplash.com](https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop)",
+      "/img/smart home.jpeg",
+      "/img/smart home 1.jpeg",
+      "/img/smart home 2.jpeg",
     ],
     highlights: [
       "Reduced home energy consumption by 30%",
@@ -120,10 +119,9 @@ export const projects = [
     github: "[github.com](https://github.com/adityapratama/weather-station)",
     demo: "[weather.adityapratama.dev](https://weather.adityapratama.dev)",
     images: [
-      "[images.unsplash.com](https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1561484930-998b6a7b22e8?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1508615039623-a25605d2b022?w=800&h=600&fit=crop)",
+      "/img/weather station.jpeg",
+      "/img/cuaca 1.jpeg",
+      "/img/cuaca 2.jpeg",
     ],
     highlights: [
       "10km LoRaWAN transmission range",
@@ -146,10 +144,9 @@ export const projects = [
     github: "[github.com](https://github.com/adityapratama/attendance-system)",
     demo: "[attendance.adityapratama.dev](https://attendance.adityapratama.dev)",
     images: [
-      "[images.unsplash.com](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1543286386-2e659306cd6c?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&h=600&fit=crop)",
+      "/img/absensi.jpeg",
+      "/img/hadir 1.jpeg",
+      "/img/hadir 2.jpeg",
     ],
     highlights: [
       "99.5% facial recognition accuracy",
@@ -165,17 +162,16 @@ export const projects = [
     fullDescription: `A cutting-edge personal portfolio website showcasing modern web development techniques and design principles. Built with React and featuring smooth animations, 3D interactive elements, and a premium glassmorphism design aesthetic.
 
     The website demonstrates proficiency in frontend development while serving as a professional showcase for engineering projects and achievements. Special attention was given to performance optimization, accessibility, and responsive design.`,
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Three.js", "Vite"],
+    technologies: ["Style CSS", "Tailwind CSS", "Framer Motion", "HTML", "JavaScript"],
     category: "Web Development",
     featured: false,
     status: "Completed",
     github: "https://github.com/Adty-ach/CodingCamp-220925-adtyprtma",
     demo: "[adityapratama.dev](https://adityapratama.dev)",
     images: [
-      "[images.unsplash.com](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop)",
-      "[images.unsplash.com](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop)",
+      "/img/porto web.jpeg",
+      "/img/porto 1.jpeg",
+      "/img/porto 2.jpeg",
     ],
     highlights: [
       "Lighthouse score of 98+",
