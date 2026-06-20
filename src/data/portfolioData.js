@@ -13,7 +13,7 @@ export const personalInfo = {
   bio: `I'm a passionate Electrical Engineering student with a deep fascination for the intersection of hardware and software. My journey began with taking apart electronics as a kid, and now I'm building smart systems that connect the physical and digital worlds.
 
   Specializing in IoT, Embedded Systems, and Industrial Automation, I love creating solutions that make technology more accessible and efficient. When I'm not coding microcontrollers or designing PCBs, you'll find me exploring the latest in renewable energy tech or contributing to open-source projects.`,
-  profileImage: "img/me.jpeg",
+  profileImage: "/img/me.jpeg",
 };
 
 export const socialLinks = {
