@@ -48,7 +48,7 @@ const Experience = () => {
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
             >
-              Work Experience
+              Experience
             </motion.h3>
             <div className="space-y-8">
               {experiences.map((exp, index) => (

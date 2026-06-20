@@ -84,10 +84,9 @@ export const projects = [
     id: 1,
     title: "Smart Home IoT System",
     shortDescription: "Complete home automation system with voice control and mobile app",
-    fullDescription: `A comprehensive smart home automation system that integrates lighting, climate control, security, and appliance management into a unified platform. The system uses a custom ESP32-based hub that communicates with various sensors and actuators throughout the home.
-
-    Key features include voice control integration with Google Assistant and Alexa, real-time monitoring through a custom React Native mobile app, and machine learning-based energy optimization that reduces power consumption by up to 30%.`,
-    technologies: ["ESP32", "MQTT", "React Native", "Node.js", "TensorFlow Lite", "PCB Design"],
+    fullDescription: `Create an IoT smart home project that can be controlled via a website by connect to ESP32 WiFi. The website contains information from sensors and includes on-off control for lamp.
+Using a combination of several sensors: an LDR sensor for light, humidity and temperature sensors, a PIR sensor for object detection, and an ultrasonic sensor for distance detection.`,
+    technologies: ["ESP32", "IoT", "Inovation", "Node.js", "TensorFlow Lite", "Sensor"],
     category: "IoT",
     featured: true,
     status: "Completed",
@@ -101,7 +100,6 @@ export const projects = [
     highlights: [
       "Reduced home energy consumption by 30%",
       "Custom PCB design with 4-layer board",
-      "Over-the-air firmware updates",
       "Machine learning for usage pattern detection",
     ],
   },
@@ -109,10 +107,8 @@ export const projects = [
     id: 2,
     title: "Weather Monitoring Station",
     shortDescription: "IoT-based environmental monitoring with cloud analytics",
-    fullDescription: `A professional-grade weather monitoring station that collects and analyzes environmental data including temperature, humidity, pressure, wind speed, UV index, and air quality. The station uses LoRaWAN for long-range communication and can operate off-grid with solar power.
-
-    Data is transmitted to a cloud platform where it's processed and visualized through an interactive dashboard. The system also provides predictive weather analytics using historical data and machine learning models.`,
-    technologies: ["LoRaWAN", "ESP32", "Solar Power", "AWS IoT", "Python", "Grafana"],
+    fullDescription: `Create weather monitoring via a website. The website displays real time data from temperature and humidity sensors and LDR sensors. The website also displays weather forecasts and the last update time. Weather predictions are based on calculations from sensor results.`,
+    technologies: ["Data Processing", "ESP32", "Solar Power", "IoT", "WebDev", "Sensory Integration"],
     category: "IoT",
     featured: true,
     status: "Completed",
@@ -124,8 +120,7 @@ export const projects = [
       "/img/cuaca 2.jpeg",
     ],
     highlights: [
-      "10km LoRaWAN transmission range",
-      "Solar-powered with 7-day battery backup",
+      "Modern web interface with responsive design",
       "Real-time data visualization",
       "Weather prediction accuracy of 85%",
     ],
@@ -133,11 +128,9 @@ export const projects = [
   {
     id: 3,
     title: "Digital Attendance System",
-    shortDescription: "RFID-based attendance tracking with facial recognition",
-    fullDescription: `An innovative attendance management system combining RFID technology with facial recognition for enhanced security and accuracy. The system eliminates buddy punching and provides real-time attendance analytics for educational institutions and businesses.
-
-    The hardware consists of custom-designed RFID readers with integrated cameras, connected to a central server that processes attendance data. The web-based dashboard provides comprehensive reporting, including attendance trends, late arrivals, and absence patterns.`,
-    technologies: ["RFID", "OpenCV", "Raspberry Pi", "PostgreSQL", "Django", "TensorFlow"],
+    shortDescription: "RFID-based attendance tracking with card recognition and data logging",
+    fullDescription: `Developed a digital attendance system using RFID technology and ESP32. The system identifies registered cards, records attendance data, and displays information through an integrated interface`,
+    technologies: ["RFID", "C++", "ESP32", "OLED", "Django", "TensorFlow"],
     category: "Embedded Systems",
     featured: true,
     status: "Completed",
@@ -149,16 +142,16 @@ export const projects = [
       "/img/hadir 2.jpeg",
     ],
     highlights: [
-      "99.5% facial recognition accuracy",
+      "99.5% card accuracy",
       "Sub-second attendance logging",
       "Handles 500+ users simultaneously",
-      "Deployed in 3 educational institutions",
+      "Deployed in educational institutions",
     ],
   },
   {
     id: 4,
     title: "Portfolio Website",
-    shortDescription: "Modern, interactive portfolio with 3D elements and animations",
+    shortDescription: "Modern, interactive portfolio with HTML, CSS, and JavaScript",
     fullDescription: `A cutting-edge personal portfolio website showcasing modern web development techniques and design principles. Built with React and featuring smooth animations, 3D interactive elements, and a premium glassmorphism design aesthetic.
 
     The website demonstrates proficiency in frontend development while serving as a professional showcase for engineering projects and achievements. Special attention was given to performance optimization, accessibility, and responsive design.`,
