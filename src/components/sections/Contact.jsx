@@ -5,6 +5,7 @@ import { Send, Mail, MapPin, Phone, CheckCircle, Loader2 } from 'lucide-react';
 import { personalInfo } from '../../data/portfolioData';
 import SocialIcons from '../icons/SocialIcons';
 import GlassCard from '../ui/GlassCard';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -15,19 +16,38 @@ const Contact = () => {
   });
   const [status, setStatus] = useState('idle'); // idle, sending, success, error
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus('sending');
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setStatus('sending');
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-    
+  try {
+    await emailjs.send(
+      'service_f40cy7b',
+      'template_46djj0i',
+      {
+        from_name: formState.name,
+        from_email: formState.email,
+        message: formState.message,
+      },
+      'doZ1XCr7AhfDW_JqN'
+    );
+
     setStatus('success');
-    setFormState({ name: '', email: '', message: '' });
-    
-    // Reset status after 3 seconds
+    setFormState({
+      name: '',
+      email: '',
+      message: '',
+    });
+
     setTimeout(() => setStatus('idle'), 3000);
-  };
+  } catch (error) {
+  console.log("FULL ERROR:", error);
+  console.log("STATUS:", error.status);
+  console.log("TEXT:", error.text);
+
+  setStatus('error');
+}
+};
 
   const handleChange = (e) => {
     setFormState((prev) => ({
@@ -205,6 +225,12 @@ const Contact = () => {
                     <>
                       <CheckCircle className="w-5 h-5" />
                       Message Sent!
+                    </>
+                  )}
+                  {status === 'error' && (
+                    <>
+                      <Send className="w-5 h-5" />
+                      Error sending message
                     </>
                   )}
                 </motion.button>
