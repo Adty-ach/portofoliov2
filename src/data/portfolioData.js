@@ -229,6 +229,16 @@ export const experiences = [
     period: "2024 - 2026",
     type: "organization",
     description: "Led and coordinated PMR activities and programs within the school. Organized health awareness campaigns and social service activities. Managed team coordination and event planning. Developed leadership, communication, and problem-solving skills through organizational activities.",
+    fullDescription: `Served as Chairperson of PMR Unit SMAS Bina Bangsa 01.
+      Responsible for coordinating members,
+      organizing health campaigns,
+      managing events and representing the organization.`,
+    images: [
+      "/img/pmr1.jpeg",
+      "/img/pmr2.jpeg",
+      "/img/pmr3.jpeg",
+      "/img/pmr4.jpeg",
+    ],
     achievements: [
       "Medical Support and Event Duty",
       "Achievement in PMI Galaksi Event",
@@ -239,18 +249,21 @@ export const experiences = [
 ];
 
 export const achievements = [
-  {
-    title: "Informatics Gold Medalist - OSKANTARA",
-    organization: "PUSKANTARA",
-    year: "2025",
-    description: "Awarded a Gold Medal (Grade A+) in the 2025 National Puskantara Science Olympiad (OSKANTARA) for the Informatics category.",
-    icon: "trophy",
+  {  title: "Informatics Gold Medalist - OSKANTARA",
+     organization: "PUSKANTARA",
+     year: "2025",
+     description: "Awarded a Gold Medal (Grade A+) in the 2025 National Puskantara Science Olympiad (OSKANTARA) for the Informatics category.",
+     images: ["/img/oskantara.jpeg"],
+     fullDescription: `Awarded a Gold Medal (Grade A+) in the 2025 National Puskantara Science Olympiad (OSKANTARA) for the Informatics category.`,
+     icon: "trophy",
   },
   {
     title: "Physics Bronze Medalist - OSSN",
     organization: "Jenius Competition",
     year: "2025",
     description: "Awarded a Bronze Medal (Grade B+) in the 2025 National Puskantara Science Olympiad (OSSN) for the Physics category.",
+    images: ["/img/ossn.jpeg"],
+    fullDescription: `Awarded a Bronze Medal (Grade B+) in the 2025 National Puskantara Science Olympiad (OSSN) for the Physics category.`,
     icon: "trophy",
   },
   {
@@ -258,6 +271,8 @@ export const achievements = [
     organization: "RevoU",
     year: "2025",
     description: "Completed a Software Engineering Coding Camp by RevoU, learning HTML, CSS, JavaScript, and web development fundamentals. Developed and deployed a website as a final project, strengthening front-end development and problem solving skills.",
+    images: ["/img/revou.jpeg"],
+    fullDescription: `Completed a Software Engineering Coding Camp by RevoU, learning HTML, CSS, JavaScript, and web development fundamentals.`,
     icon: "code",
   },
   {
@@ -265,6 +280,8 @@ export const achievements = [
     organization: "BEM FEB UNDIP",
     year: "2025",
     description: "Participation in Ecopreneur 2025 organized by BEM FEB Universitas Diponegoro, focusing on entrepreneurship, sustainable business growth, innovation, and leadership development.",
+    images: ["/img/ecopreneur.jpeg"],
+    fullDescription: `Participation in Ecopreneur 2025 organized by BEM FEB Universitas Diponegoro, focusing on entrepreneurship, sustainable business growth, innovation, and leadership development.`,
     icon: "certificate",
   },
   {
@@ -272,6 +289,8 @@ export const achievements = [
     organization: "Dicoding Academy",
     year: "2025",
     description: "Completed training in Artificial Intelligence, Machine Learning, and Python programming. Gained foundational knowledge in AI concepts, data analysis, machine learning workflows, and practical problem solving using Python.",
+    images: ["/img/dicoding.jpeg"],
+    fullDescription: `Completed training in Artificial Intelligence, Machine Learning, and Python programming. Gained foundational knowledge in AI concepts, data analysis, machine learning workflows, and practical problem solving using Python.`,
     icon: "award",
   },
   {
@@ -279,13 +298,17 @@ export const achievements = [
     organization: "FLS3N",
     year: "2025",
     description: "Participated in the 2025 FLS3N Short Film Competition",
+    images: ["/img/fls3nlagi.jpeg"],
+    fullDescription: `Participated in the 2025 FLS3N Short Film Competition`,
     icon: "book",
   },
   {
     title: "Creative Video Competition - PMR Wira Se-Kalimantan Tengah",
     organization: "KSR Unit Universitas Palangkaraya",
     year: "2025",
-    description: "participation in the PMR Wira Creative Video Competition organized by KSR PMI Universitas Palangkaraya, demonstrating involvement in creative media production and digital storytelling.",
+    description: "Participation in the PMR Wira Creative Video Competition organized by KSR PMI Universitas Palangkaraya, demonstrating involvement in creative media production and digital storytelling.",
+    images: ["/img/ksr.jpeg"],
+    fullDescription: `Participation in the PMR Wira Creative Video Competition organized by KSR PMI Universitas Palangkaraya, demonstrating involvement in creative media production and digital storytelling.`,
     icon: "star",
   },
   {
@@ -293,6 +316,8 @@ export const achievements = [
     organization: "Braindicator",
     year: "2025",
     description: "Awarded a Bronze Medal (Grade B+) in the 2025 National Puskantara Science Olympiad (ONSB) for the English category.",
+    images: ["/img/onsb.jpeg", "/img/onsb 2.jpeg"],
+    fullDescription: `Awarded a Bronze Medal (Grade B+) in the 2025 National Puskantara Science Olympiad (ONSB) for the English category.`,
     icon: "trophy",
   },
   {
@@ -300,6 +325,8 @@ export const achievements = [
     organization: "SMA Swasta Bina Bangsa 01",
     year: "2025",
     description: "Awarded 1st Place in the 2025 School Photography Competition.",
+    images: ["/img/fotografi 2.jpeg", "/img/fotografi 1.jpeg"],
+    fullDescription: `Awarded 1st Place in the 2025 School Photography Competition.`,
     icon: "trophy",
   },
 

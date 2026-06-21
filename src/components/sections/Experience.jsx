@@ -4,6 +4,9 @@ import { Trophy, Award, BookOpen, Star, Code, Medal } from 'lucide-react';
 import { experiences, achievements } from '../../data/portfolioData';
 import TimelineCard from '../ui/TimelineCard';
 import GlassCard from '../ui/GlassCard';
+import { useState } from 'react';
+import AchievementModal from '../ui/AchievementModal';
+import ExperienceModal from '../ui/ExperienceModal';
 
 const iconMap = {
   trophy: Trophy,
@@ -15,6 +18,8 @@ const iconMap = {
 };
 
 const Experience = () => {
+  const [selectedAchievement, setSelectedAchievement] = useState(null);
+  const [selectedExperience, setSelectedExperience] = useState(null);
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
@@ -58,7 +63,9 @@ const Experience = () => {
                   animate={inView ? { opacity: 1, x: 0 } : {}}
                   transition={{ delay: index * 0.15 }}
                 >
-                  <GlassCard className="p-6" glow>
+                  <GlassCard className="p-6 cursor-pointer"
+                          glow
+                              onClick={() => setSelectedExperience(exp)}>
                     <div className="flex items-start gap-4">
                       {/* Timeline dot */}
                       <div className="relative">
@@ -124,7 +131,10 @@ const Experience = () => {
                     animate={inView ? { opacity: 1, x: 0 } : {}}
                     transition={{ delay: index * 0.1 }}
                   >
-                    <GlassCard className="p-5 group" hover>
+                    <GlassCard
+                       className="p-5 group cursor-pointer"
+                            hover
+                              onClick={() => setSelectedAchievement(achievement)}>
                       <div className="flex items-start gap-4">
                         <div className="p-3 bg-gradient-to-br from-electric-blue/20 to-electric-cyan/20 rounded-xl group-hover:scale-110 transition-transform">
                           <Icon className="w-6 h-6 text-electric-cyan" />
@@ -149,8 +159,17 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      <AchievementModal
+            achievement={selectedAchievement}
+           isOpen={!!selectedAchievement}
+           onClose={() => setSelectedAchievement(null)}/>
+
+      <ExperienceModal
+            experience={selectedExperience}
+           isOpen={!!selectedExperience}
+           onClose={() => setSelectedExperience(null)}/>
     </section>
   );
-};
+}
 
 export default Experience;
