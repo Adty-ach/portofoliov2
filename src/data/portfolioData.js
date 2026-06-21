@@ -316,7 +316,7 @@ export const achievements = [
     organization: "Braindicator",
     year: "2025",
     description: "Awarded a Bronze Medal (Grade B+) in the 2025 National Puskantara Science Olympiad (ONSB) for the English category.",
-    images: ["/img/onsb.jpeg", "/img/onsb 2.jpeg"],
+    images: ["/img/onsb.jpeg"],
     fullDescription: `Awarded a Bronze Medal (Grade B+) in the 2025 National Puskantara Science Olympiad (ONSB) for the English category.`,
     icon: "trophy",
   },
