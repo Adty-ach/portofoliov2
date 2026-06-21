@@ -86,7 +86,7 @@ export const projects = [
     shortDescription: "Complete home automation system with voice control and mobile app",
     fullDescription: `Create an IoT smart home project that can be controlled via a website by connect to ESP32 WiFi. The website contains information from sensors and includes on-off control for lamp.
 Using a combination of several sensors: an LDR sensor for light, humidity and temperature sensors, a PIR sensor for object detection, and an ultrasonic sensor for distance detection.`,
-    technologies: ["ESP32", "IoT", "Inovation", "Node.js", "TensorFlow Lite", "Sensor"],
+    technologies: ["ESP32", "IoT", "Inovation", "Ultrasonic", "TensorFlow Lite", "Sensor"],
     category: "IoT",
     featured: true,
     status: "Completed",
@@ -108,7 +108,7 @@ Using a combination of several sensors: an LDR sensor for light, humidity and te
     title: "Weather Monitoring Station",
     shortDescription: "IoT-based environmental monitoring with cloud analytics",
     fullDescription: `Create weather monitoring via a website. The website displays real time data from temperature and humidity sensors and LDR sensors. The website also displays weather forecasts and the last update time. Weather predictions are based on calculations from sensor results.`,
-    technologies: ["Data Processing", "ESP32", "Solar Power", "IoT", "WebDev", "Sensory Integration"],
+    technologies: ["Data Processing", "ESP32", "Node.js", "IoT", "WebDev", "Sensory Integration"],
     category: "IoT",
     featured: true,
     status: "Completed",
@@ -173,7 +173,52 @@ Using a combination of several sensors: an LDR sensor for light, humidity and te
       "Optimized for performance",
     ],
   },
-
+  {
+    id: 5,
+    title: "Scientific Research Project for ISPO Preparation",
+    shortDescription: "Conducted a two-year research project exploring the potential of moss as a natural indoor humidifier.",
+    fullDescription: `The study focused on the ability of moss to retain and release moisture, contributing to improved indoor humidity levels. Through this project, I gained experience in scientific research, experimentation, data analysis, literature review, and problem-solving while developing environmentally friendly solutions for indoor environments.chievements.`,
+    technologies: ["Research", "Environmental Science", "Project Planning", "Chritical Thinking", "Scientific Writing"],
+    category: "Research",
+    featured: false,
+    status: "Completed",
+    github: "[github.com](https://github.com/adityapratama/ISPO-Research-Project)",
+    demo: "[adityapratama.dev](https://adityapratama.dev)",
+    images: [
+      "/img/ispo.jpeg",
+      "/img/ispo 1.jpeg",
+      "/img/ispo 2.jpeg",
+    ],
+    highlights: [
+      "Moss Potential as Natural Humidifier",
+      "Two-Year Research Project",
+      "Gained Experience in Scientific Research and Experimentation",
+      "Developed Skills in Data Analysis and Scientific Writing",
+    ],
+  },
+  {
+    id: 6,
+    title: "FLS3N 2025 Short Film Production Project",
+    shortDescription: "Collaborated in the production of a short film for the National Student Arts Festival and Competition (FLS3N) 2025.",
+    fullDescription: `Contributed as a scriptwriter, video editor, and videographer, participating in the creative development, filming process, and post-production. This experience strengthened my storytelling, visual communication, teamwork, and multimedia production skills.`,
+    technologies: ["Film Production", "Scriptwriting", "Directing", "Editing", "Collaboration"],
+    category: "Creative",
+    featured: false,
+    status: "Completed",
+    github: "[github.com](https://github.com/adityapratama/FLS3N-Short-Film-Project)",
+    demo: "[adityapratama.dev](https://adityapratama.dev)",
+    images: [
+      "/img/filpen.jpeg",
+      "/img/filpen 1.jpeg",
+      "/img/filpen 2.jpeg",
+    ],
+    highlights: [
+      "Collaborative Film Production",
+      "Scriptwriting and Editing",
+      "Visual Communication and Storytelling",
+      "Teamwork and Multimedia Production",
+    ],
+  },
 ];
 
 export const experiences = [

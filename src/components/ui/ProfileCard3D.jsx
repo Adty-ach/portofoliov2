@@ -139,7 +139,7 @@ const ProfileCard3D = () => {
             {/* Quick stats */}
             <div className="grid grid-cols-3 gap-4 w-full mt-2">
               {[
-                { label: 'Projects', value: '8' },
+                { label: 'Projects', value: '6' },
                 { label: 'Years Exp', value: '1+' },
                 { label: 'Certs', value: '9' },
               ].map((stat, index) => (
