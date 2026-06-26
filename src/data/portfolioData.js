@@ -88,7 +88,7 @@ export const projects = [
 Using a combination of several sensors: an LDR sensor for light, humidity and temperature sensors, a PIR sensor for object detection, and an ultrasonic sensor for distance detection.`,
     technologies: ["ESP32", "IoT", "Inovation", "Ultrasonic", "TensorFlow Lite", "Sensor"],
     category: "IoT",
-    featured: true,
+    featured: false,
     status: "Completed",
     github: "https://github.com/adityapratama/smart-home",
     demo: "https://smarthome.adityapratama.dev",
