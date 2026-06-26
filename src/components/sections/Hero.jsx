@@ -95,7 +95,7 @@ const Hero = () => {
               transition={{ delay: 3.1 }}
             >
               {[
-                { value: '6', label: 'Projects' },
+                { value: '7', label: 'Projects' },
                 { value: '1+', label: 'Years Experience' },
                 { value: '9', label: 'Certifications' },
               ].map((stat, index) => (

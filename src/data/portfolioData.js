@@ -219,6 +219,43 @@ Using a combination of several sensors: an LDR sensor for light, humidity and te
       "Teamwork and Multimedia Production",
     ],
   },
+  {
+    id: 7,
+    title: "AstroVerse - Physics-Based Solar System Simulation",
+    shortDescription:
+      "A web-based 3D Solar System simulation built with React and Three.js, implementing real orbital mechanics and gravitational physics instead of predefined animations.",
+    fullDescription: `AstroVerse is an interactive web application that visualizes the Solar System using realistic 3D graphics while simulating planetary motion through physics calculations. Instead of relying on simple animation loops, the project applies Newtonian gravity, orbital mechanics, and Keplerian motion to produce dynamic planetary movement. Built with React Three Fiber and Three.js, the application combines scientific visualization with modern web technologies, providing an educational platform for exploring astronomy and physics in real time.`,
+    technologies: [
+      "React",
+      "JavaScript",
+      "Three.js",
+      "React Three Fiber",
+      "3D Graphics",
+      "Orbital Mechanics",
+      "Newtonian Gravity",
+      "Physics Simulation",
+      "NASA Data"
+    ],
+    category: "Web Development",
+    featured: true,
+    status: "In Progress",
+    github: "https://github.com/Adty-ach/Solar-System-Website",
+    demo: "https://astroverse.vercel.app",
+    images: [
+    "/img/astroverse.jpeg",
+    "/img/astroverse-1.jpeg",
+    "/img/astroverse-2.jpeg",
+    "/img/astroverse-3.jpeg"
+    ],
+    highlights: [
+    "Real-Time Physics-Based Planetary Motion",
+    "Newtonian Gravitational Force Simulation",
+    "Keplerian Orbital Mechanics",
+    "Interactive 3D Solar System",
+    "Built with React Three Fiber and Three.js",
+    "NASA-inspired Planet Textures and Data"
+    ],
+  },
 ];
 
 export const experiences = [
